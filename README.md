@@ -7,7 +7,7 @@ Este repositorio contiene una colección de notebooks de Google Colaboratory uti
 Aquí puedes encontrar una lista de las carpetas con los notebooks incluidos en este repositorio y una breve descripción de cada uno:
 
 * [Analisis de Color](color): Analisis y trabajo sobre los canales de color de las imagenes por medio de openCV.
-* [Muestreo y Cyantización](muestreo_y_cuantizacion): Analisis y trabajo sobre los pixeles y la cantidad de tonos de las imagenes por medio de openCV.
+* [Muestreo y Cuantización](muestreo_y_cuantizacion): Analisis y trabajo sobre los pixeles y la cantidad de tonos de las imagenes por medio de openCV.
 
 
 ## Cómo utilizar los Notebooks de Colab
