@@ -58,3 +58,46 @@ Estas librerías generalmente están preinstaladas en Google Colab.
 * Este notebook proporciona una demostración práctica de los conceptos teóricos de muestreo y cuantización.
 * Observa cómo la reducción de la resolución produce un efecto de "bloqueo" en la imagen.
 * Observa cómo la cuantización produce un efecto de "contorno falso" a medida que se reducen los niveles de intensidad.
+
+  ----------------------------------------------------------------------------------------------------------------------
+
+# Cuantización por Canales de Color
+
+Este notebook de Colab explora el efecto de la cuantización en imágenes digitales, específicamente cómo afecta a los diferentes canales de color (Azul, Verde y Rojo - BGR).
+
+## Descripción
+
+El objetivo principal es visualizar y comprender cómo la reducción del número de tonos disponibles (cuantización) impacta la apariencia de una imagen y cómo este impacto varía entre los canales de color. El notebook carga una imagen, la procesa para separar sus canales de color, y luego aplica la cuantización con diferentes niveles de tonos. Finalmente, muestra las imágenes resultantes y sus histogramas.
+
+## Contenido
+
+El notebook incluye las siguientes secciones:
+
+1.  **Importación de Librerías:** Importa las librerías necesarias como `numpy`, `cv2` (OpenCV) y `matplotlib.pyplot`.
+2.  **Obtención de Imagen:** Descarga y carga una imagen desde una URL utilizando `wget` y `cv2.imread`. La imagen cargada se muestra usando `matplotlib.pyplot`.
+3.  **Funciones:**
+    * `reduceCanales(imagen_original, tonos)`:  Reduce la cantidad de tonos en cada canal de color de la imagen.
+    * `MuestraCanales(imagen_procesada, tonos)`:  Muestra la imagen procesada, los canales individuales (BGR) en escala de grises y con sus respectivos mapas de color, y los histogramas de cada canal.
+4.  **Pruebas con distintos valores de tonos:** Itera sobre una lista de valores de tonos (`[256, 128, 64, 32, 16, 8, 4, 2]`) y muestra la imagen cuantizada para cada valor, permitiendo la comparación visual del efecto de la cuantización.
+
+## Cómo utilizar
+
+1.  **Abrir en Colab:** Abre este notebook en Google Colaboratory.
+2.  **Ejecutar las celdas:** Ejecuta las celdas en orden secuencial.
+    * La primera celda instala las librerías necesarias.
+    * La segunda celda descarga y carga la imagen.
+    * Las celdas siguientes definen las funciones y realizan las pruebas de cuantización.
+3.  **Experimentar:** Puedes modificar la lista `lista_tonos` para probar diferentes niveles de cuantización. También puedes cambiar la imagen de entrada modificando la URL en la celda correspondiente.
+
+## Dependencias
+
+* `numpy`
+* `cv2` (OpenCV)
+* `matplotlib.pyplot`
+
+Estas librerías generalmente están preinstaladas en Google Colab. Si no lo están, puedes instalarlas usando `pip install numpy opencv-python matplotlib`.
+
+## Notas adicionales
+
+* Este notebook es útil para entender visualmente cómo la cuantización afecta la información de color en las imágenes.
+* Observa cómo los histogramas cambian a medida que se reduce el número de tonos.
