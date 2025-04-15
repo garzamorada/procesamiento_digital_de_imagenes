@@ -25,7 +25,6 @@ Este repositorio contiene dos notebooks de Colab diseñados para repasar concept
         * Manejo de errores.
         * Módulos y paquetes.
         * Lectura y escritura de archivos.
-        * Introducción a Pandas.
 
 ## Cómo utilizar
 
