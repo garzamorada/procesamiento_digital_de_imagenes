@@ -1,16 +1,12 @@
-Ok, aquí tienes el código Markdown para tu README.md, junto con las descripciones e instrucciones de uso para tus cuadernos de Colab.
-
-Markdown
-
 # Repositorio de Cuadernos de Colab sobre Procesamiento de Imágenes
 
 Este repositorio contiene cuadernos de Colab diseñados para explorar y aprender diferentes aspectos del procesamiento de imágenes utilizando Python y bibliotecas populares como PIL (Pillow), scikit-image y scipy.
 
 ## Índice de Cuadernos
 
-1.  [Lectura, Guardado y Visualización de Imágenes con PIL/Pillow](#lectura-guardado-y-visualización-de-imágenes-con-pilpillow)
-2.  [Procesamiento de Imágenes con scikit-image y scipy](#procesamiento-de-imágenes-con-scikit-image-y-scipy)
-3.  [Visualización de Múltiples Imágenes y Ajuste de Interpolación](#visualización-de-múltiples-imágenes-y-ajuste-de-interpolación)
+1.  [Lectura, Guardado y Visualización de Imágenes con PIL/Pillow](#lectura-guardado-y-visualización-de-imágenes-con-pilpillow.ipynb)
+2.  [Procesamiento de Imágenes con scikit-image y scipy](#procesamiento-de-imágenes-con-scikit-image-y-scipy.ipynb)
+3.  [Visualización de Múltiples Imágenes y Ajuste de Interpolación](#visualización-de-múltiples-imágenes-y-ajuste-de-interpolación.ipynb)
 
 ## Descripción de los Cuadernos
 
