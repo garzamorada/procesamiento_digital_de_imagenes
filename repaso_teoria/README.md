@@ -6,7 +6,7 @@ Este repositorio contiene cuadernos de Colab diseñados para explorar y aprender
 
 1.  [Introduccion a Pil/Pillow](introduccion_pil-pillow.ipynb)
 2.  [Ejemplos de usoa de scikit-image y scipy](ejemplos_de_uso_scikit-image_scupy.ipynb)
-3.  [Ejemplos de uso de Pil/Pillow](/ejemplos_de_uso_de_pil-pillow.ipynb)
+3.  [Ejemplos de uso de Pil/Pillow](ejemplos_de_uso_de_pil-pillow.ipynb)
 
 ## Descripción de los Cuadernos
 
