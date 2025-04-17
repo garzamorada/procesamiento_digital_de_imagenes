@@ -4,9 +4,9 @@ Este repositorio contiene cuadernos de Colab diseñados para explorar y aprender
 
 ## Índice de Cuadernos
 
-1.  [Lectura, Guardado y Visualización de Imágenes con PIL/Pillow](#lectura-guardado-y-visualización-de-imágenes-con-pilpillow.ipynb)
-2.  [Procesamiento de Imágenes con scikit-image y scipy](#procesamiento-de-imágenes-con-scikit-image-y-scipy.ipynb)
-3.  [Visualización de Múltiples Imágenes y Ajuste de Interpolación](#visualización-de-múltiples-imágenes-y-ajuste-de-interpolación.ipynb)
+1.  [Introduccion a Pil/Pillow](introduccion_pil-pillow.ipynb)
+2.  [Ejemplos de usoa de scikit-image y scipy](ejemplos_de_uso_scikit-image_scupy.ipynb)
+3.  [Ejemplos de uso de Pil/Pillow](/ejemplos_de_uso_de_pil-pillow.ipynb)
 
 ## Descripción de los Cuadernos
 
