@@ -12,6 +12,7 @@ Aquí puedes encontrar una lista de las carpetas con los notebooks incluidos en 
 * [Muestreo y Cuantización](muestreo_y_cuantizacion): Analisis y trabajo sobre los pixeles y la cantidad de tonos de las imagenes por medio de openCV.
 * [Segmentacion Simple](segmentacion_simple): Utilizamos las tecnicas de los cuadernos anteriores para seleccionar un objeto por su color.
 * [Ejercicio Integrador](ejercicio_integrador): Aplicamos las tecnicas de separacion de colores, muestreo, cuantizacion y segmentación simple a una imagen.
+* *Extra*  [Uso de skimage y pil-pillow](uso_skimage_y_pil-pillow): Funcionamiento básico y comparacion de librerias.
 
 
 ## Cómo utilizar los Notebooks de Colab
