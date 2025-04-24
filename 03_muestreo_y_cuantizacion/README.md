@@ -1,6 +1,6 @@
 # Muestreo y Cuantizacion
 ## Indice:
-1. [Muestreo y Cuantización en Procesamiento de Imágenes](03.1_Muestreo_y_Cuantización.ipynb): Este notebook de Colab explora los conceptos fundamentales de muestreo y cuantización, dos operaciones esenciales en el procesamiento digital de imágenes.
+1. [Muestreo y Cuantización en Procesamiento de Imágenes](03.1_Muestreo_y_cuantizacion.ipynb): Este notebook de Colab explora los conceptos fundamentales de muestreo y cuantización, dos operaciones esenciales en el procesamiento digital de imágenes.
 2. [Cuantización por Canales de Color](03.2_Prueba_cuantizacion_por_canal_de_color.ipynb): Este notebook de Colab explora el efecto de la cuantización en imágenes digitales, específicamente cómo afecta a los diferentes canales de color (Azul, Verde y Rojo - BGR).
 
 ## Muestreo y Cuantización en Procesamiento de Imágenes
