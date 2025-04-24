@@ -1,7 +1,7 @@
 # Espacios de Color
 ## Indice:
-1. [Ejercicios sobre color](02.1 - Ejercicios_sobre_color.ipynb): Este notebook de Colab contiene ejercicios prácticos relacionados con el procesamiento y la manipulación de color en imágenes digitales.
-2. [Trabajo con canales HSV, HSL y YUV](02.2 - Trabajo_con_canales_HSV,_HLS_y_YUV.ipynb): Este notebook de Colab explora diferentes espacios de color más allá del tradicional RGB, específicamente HSV, HLS e YUV, y cómo trabajar con sus canales individuales.
+1. [Ejercicios sobre color](02.1_Ejercicios_sobre_color.ipynb): Este notebook de Colab contiene ejercicios prácticos relacionados con el procesamiento y la manipulación de color en imágenes digitales.
+2. [Trabajo con canales HSV, HSL y YUV](02.2_Trabajo_con_canales_HSV,_HLS_y_YUV.ipynb): Este notebook de Colab explora diferentes espacios de color más allá del tradicional RGB, específicamente HSV, HLS e YUV, y cómo trabajar con sus canales individuales.
 
 # Ejercicios sobre Color
 

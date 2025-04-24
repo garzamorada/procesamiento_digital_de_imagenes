@@ -1,8 +1,10 @@
-# Muestreo y Cuantización en Procesamiento de Imágenes
+# Muestreo y Cuantizacion
+## Indice:
+1. [Muestreo y Cuantización en Procesamiento de Imágenes](03.1_Muestreo_y_Cuantización.ipynb): Este notebook de Colab explora los conceptos fundamentales de muestreo y cuantización, dos operaciones esenciales en el procesamiento digital de imágenes.
+2. [Cuantización por Canales de Color](03.2_Prueba_cuantizacion_por_canal_de_color.ipynb): Este notebook de Colab explora el efecto de la cuantización en imágenes digitales, específicamente cómo afecta a los diferentes canales de color (Azul, Verde y Rojo - BGR).
 
-Este notebook de Colab explora los conceptos fundamentales de muestreo y cuantización, dos operaciones esenciales en el procesamiento digital de imágenes.
-
-## Descripción
+## Muestreo y Cuantización en Procesamiento de Imágenes
+### Descripción
 
 El procesamiento digital de imágenes se basa en la conversión de una imagen continua en una forma digital. Esto se logra mediante dos pasos principales:
 
@@ -11,7 +13,7 @@ El procesamiento digital de imágenes se basa en la conversión de una imagen co
 
 Este notebook demuestra estos procesos y sus efectos en una imagen.
 
-## Contenido
+### Contenido
 
 El notebook incluye las siguientes secciones:
 
@@ -34,7 +36,7 @@ El notebook incluye las siguientes secciones:
         * **Funcionamiento:** Divide el rango de valores de píxeles (0-255) en `niveles` intervalos iguales y asigna a cada píxel el valor central del intervalo al que pertenece.
     * Muestra la imagen original y las versiones cuantizadas con diferentes números de niveles.
 
-## Cómo utilizar
+### Cómo utilizar
 
 1.  **Abrir en Colab:** Abre este notebook en Google Colaboratory.
 2.  **Ejecutar las celdas:** Ejecuta las celdas en orden secuencial.
@@ -46,14 +48,14 @@ El notebook incluye las siguientes secciones:
     * Puedes modificar los `niveles` en la sección de cuantización para observar el efecto de diferentes niveles de cuantización.
     * Puedes cambiar la imagen cargada modificando la ruta del archivo.
 
-## Dependencias
+### Dependencias
 
 * `numpy`
 * `cv2` (OpenCV)
 
 Estas librerías generalmente están preinstaladas en Google Colab.
 
-## Notas adicionales
+### Notas adicionales
 
 * Este notebook proporciona una demostración práctica de los conceptos teóricos de muestreo y cuantización.
 * Observa cómo la reducción de la resolución produce un efecto de "bloqueo" en la imagen.
@@ -61,15 +63,12 @@ Estas librerías generalmente están preinstaladas en Google Colab.
 
   ----------------------------------------------------------------------------------------------------------------------
 
-# Cuantización por Canales de Color
-
-Este notebook de Colab explora el efecto de la cuantización en imágenes digitales, específicamente cómo afecta a los diferentes canales de color (Azul, Verde y Rojo - BGR).
-
-## Descripción
+## Cuantización por Canales de Color
+### Descripción
 
 El objetivo principal es visualizar y comprender cómo la reducción del número de tonos disponibles (cuantización) impacta la apariencia de una imagen y cómo este impacto varía entre los canales de color. El notebook carga una imagen, la procesa para separar sus canales de color, y luego aplica la cuantización con diferentes niveles de tonos. Finalmente, muestra las imágenes resultantes y sus histogramas.
 
-## Contenido
+### Contenido
 
 El notebook incluye las siguientes secciones:
 
@@ -80,7 +79,7 @@ El notebook incluye las siguientes secciones:
     * `MuestraCanales(imagen_procesada, tonos)`:  Muestra la imagen procesada, los canales individuales (BGR) en escala de grises y con sus respectivos mapas de color, y los histogramas de cada canal.
 4.  **Pruebas con distintos valores de tonos:** Itera sobre una lista de valores de tonos (`[256, 128, 64, 32, 16, 8, 4, 2]`) y muestra la imagen cuantizada para cada valor, permitiendo la comparación visual del efecto de la cuantización.
 
-## Cómo utilizar
+### Cómo utilizar
 
 1.  **Abrir en Colab:** Abre este notebook en Google Colaboratory.
 2.  **Ejecutar las celdas:** Ejecuta las celdas en orden secuencial.
@@ -89,7 +88,7 @@ El notebook incluye las siguientes secciones:
     * Las celdas siguientes definen las funciones y realizan las pruebas de cuantización.
 3.  **Experimentar:** Puedes modificar la lista `lista_tonos` para probar diferentes niveles de cuantización. También puedes cambiar la imagen de entrada modificando la URL en la celda correspondiente.
 
-## Dependencias
+### Dependencias
 
 * `numpy`
 * `cv2` (OpenCV)
@@ -97,7 +96,7 @@ El notebook incluye las siguientes secciones:
 
 Estas librerías generalmente están preinstaladas en Google Colab. Si no lo están, puedes instalarlas usando `pip install numpy opencv-python matplotlib`.
 
-## Notas adicionales
+### Notas adicionales
 
 * Este notebook es útil para entender visualmente cómo la cuantización afecta la información de color en las imágenes.
 * Observa cómo los histogramas cambian a medida que se reduce el número de tonos.

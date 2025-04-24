@@ -1,4 +1,4 @@
-# Segmentación Simple por Color
+# [Segmentación Simple por Color](04.1_Segmentacion_simple.ipynb)
 
 Este notebook de Colab proporciona un ejemplo introductorio de segmentación de imágenes basado en el color.
 

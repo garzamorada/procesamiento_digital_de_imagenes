@@ -1,4 +1,4 @@
-# Ejercicio Integrador: Color, Muestreo, Cuantización y Segmentación
+# [Ejercicio Integrador: Color, Muestreo, Cuantización y Segmentación](05.1_Ejercicio_Integrador_color,_muestreo,_cuantizacion_y_segmentacion.ipynb)
 
 Este notebook de Colab integra varios conceptos fundamentales del procesamiento de imágenes, incluyendo espacios de color, muestreo, cuantización y segmentación.
 
