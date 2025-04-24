@@ -6,13 +6,13 @@ Este repositorio contiene una colección de notebooks de Google Colaboratory uti
 
 Aquí puedes encontrar una lista de las carpetas con los notebooks incluidos en este repositorio y una breve descripción de cada uno:
 
-* [Repaso de Python](00_repaso_de_python): Breve repaso de los fundamentos del lenguaje **python** con ejemplos prácticos.
-* [Introduccion al procesamiento digital de imagenes](01_introduccion): Conceptos básicos sobre OpenCV y skimage
-* [Analisis de Color](02_color): Analisis y trabajo sobre los canales de color de las imagenes por medio de openCV.
-* [Muestreo y Cuantización](03_muestreo_y_cuantizacion): Analisis y trabajo sobre los pixeles y la cantidad de tonos de las imagenes por medio de openCV.
-* [Segmentacion Simple](04_segmentacion_simple): Utilizamos las tecnicas de los cuadernos anteriores para seleccionar un objeto por su color.
-* [Ejercicio Integrador](05_ejercicio_integrador): Aplicamos las tecnicas de separacion de colores, muestreo, cuantizacion y segmentación simple a una imagen.
-* *Extra*  [Uso de skimage y pil-pillow](06_uso_skimage_y_pil-pillow): Funcionamiento básico y comparacion de librerias.
+* 00 [Repaso de Python](00_repaso_de_python): Breve repaso de los fundamentos del lenguaje **python** con ejemplos prácticos.
+* 01 [Introduccion al procesamiento digital de imagenes](01_introduccion): Conceptos básicos sobre OpenCV y skimage
+* 02 [Analisis de Color](02_color): Analisis y trabajo sobre los canales de color de las imagenes por medio de openCV.
+* 03 [Muestreo y Cuantización](03_muestreo_y_cuantizacion): Analisis y trabajo sobre los pixeles y la cantidad de tonos de las imagenes por medio de openCV.
+* 04 [Segmentacion Simple](04_segmentacion_simple): Utilizamos las tecnicas de los cuadernos anteriores para seleccionar un objeto por su color.
+* 05 [Ejercicio Integrador](05_ejercicio_integrador): Aplicamos las tecnicas de separacion de colores, muestreo, cuantizacion y segmentación simple a una imagen.
+* 06 *Extra*  [Uso de skimage y pil-pillow](06_uso_skimage_y_pil-pillow): Funcionamiento básico y comparacion de librerias.
 
 
 ## Cómo utilizar los Notebooks de Colab
