@@ -4,17 +4,7 @@ Este repositorio contiene dos notebooks de Colab que introducen a los usuarios a
 
 ## Contenido
 
-1.  **[Introducción a Scikit-image](introduccion_a_skimage.ipynb)**
-
-    * **Descripción:** Este notebook proporciona una introducción a la biblioteca Scikit-image (skimage), una herramienta poderosa para el procesamiento de imágenes en Python. Cubre la instalación, importación de módulos, carga y visualización de imágenes, y algunas operaciones básicas de procesamiento.
-    * **Temas principales:**
-        * Instalación e importación de librerías
-        * Carga de imagen
-        * Aplicación de filtros (Sobel, Gaussiano, etc.)
-        * Mediciones en imágenes
-        * Extracción de características (Canny)
-
-2.  **[Introducción a OpenCV](introduccion_a_openCV.ipynb)**
+1.  **[Introducción a OpenCV](01.1 - introduccion_a_openCV.ipynb)**
 
     * **Descripción:** Este notebook proporciona una introducción a la biblioteca OpenCV (cv2), una biblioteca ampliamente utilizada para la visión por computadora. Cubre la instalación, carga y visualización de imágenes, conversión de espacios de color, dibujo de formas y escritura de texto.
     * **Temas principales:**
@@ -24,6 +14,16 @@ Este repositorio contiene dos notebooks de Colab que introducen a los usuarios a
         * Dibujo de formas geométricas
         * Escritura de texto en imágenes
         * Acceso a información de la imagen
+
+2.  **[Introducción a Scikit-image](01.2 - introduccion_a_skimage.ipynb)**
+
+    * **Descripción:** Este notebook proporciona una introducción a la biblioteca Scikit-image (skimage), una herramienta poderosa para el procesamiento de imágenes en Python. Cubre la instalación, importación de módulos, carga y visualización de imágenes, y algunas operaciones básicas de procesamiento.
+    * **Temas principales:**
+        * Instalación e importación de librerías
+        * Carga de imagen
+        * Aplicación de filtros (Sobel, Gaussiano, etc.)
+        * Mediciones en imágenes
+        * Extracción de características (Canny)
 
 ## Cómo utilizar
 
