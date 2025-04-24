@@ -4,7 +4,7 @@ Este repositorio contiene dos notebooks de Colab diseñados para repasar concept
 
 ## Contenido
 
-1.  **[Repaso de Python - Parte 1](00.1 - repaso_de_python_variables,_funciones_predefinidas,_listas,_diccionarios_y_tuplas.ipynb)**
+1.  **[Repaso de Python - Parte 1](00.1_repaso_de_python_variables,_funciones_predefinidas,_listas,_diccionarios_y_tuplas.ipynb)**
 
     * **Descripción:** Este notebook cubre los conceptos básicos de Python, incluyendo:
         * Introducción a Python (características, ejecución).
@@ -15,7 +15,7 @@ Este repositorio contiene dos notebooks de Colab diseñados para repasar concept
         * Entrada y salida.
         * Métodos de cadenas.
 
-2.  **[Repaso de Python - Parte 2](00.2 - repaso_python_bucles,_funciones_y_objetos.ipynb)**
+2.  **[Repaso de Python - Parte 2](00.2_repaso_python_bucles,_funciones_y_objetos.ipynb)**
 
     * **Descripción:** Este notebook profundiza en conceptos más avanzados de Python, incluyendo:
         * Condicionales (if, elif, else).
