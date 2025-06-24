@@ -7,7 +7,7 @@ Esta carpeta sirve como el repositorio central para el **Trabajo Práctico Integ
 * [13.1_Reconocimiento_con_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.1_reconocimiento_con_tensorflow_y_keras)
 * [13.2_Detector_TensorFlow_y_Keras](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.2_deteccion_con_tensorflow_y_keras)
 * [13.3_Detector_YOLO](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.3_deteccion_con_yolo)
-* [13.4_Detector_TensorFlow_Object_Detection_API](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.4_detector_tensorflow_object_detection_api)
+* [13.4_Detector_TensorFlow_Object_Detection_API](https://github.com/garzamorada/procesamiento_digital_de_imagenes/tree/main/13_trabajo_practico_integrador/13.4_tensorflow_object_detection_api)
 
 ---
 
