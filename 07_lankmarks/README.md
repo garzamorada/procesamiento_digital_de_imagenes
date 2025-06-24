@@ -4,9 +4,9 @@ Esta carpeta contiene una serie de cuadernos de Jupyter (o Colab) enfocados en c
 
 ## Índice de Contenidos
 
-* [07.1_operaciones_morfologicas.ipynb](07.1_operaciones_morfologicas.ipynb)
-* [07.2_landmarks_faciales.ipynb](07.2_landmarks_facialesi.pynb)
-* [07.3_Integrador_landmarcks_en_video.ipynb](07.3_integrador_landmarcks_en_video.ipynb)
+* [07.1_operaciones_morfologicas](07.1_operaciones_morfologicas.ipynb)
+* [07.2_landmarks_faciales](07.2_landmarks_faciales.ipynb)
+* [07.3_Integrador_landmarcks_en_video](07.3_Integrador_landmarcks_en_video.ipynb)
 
 ---
 
