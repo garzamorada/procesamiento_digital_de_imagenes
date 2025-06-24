@@ -14,11 +14,11 @@ Aquí puedes encontrar una lista de las carpetas con los notebooks incluidos en 
 * 05 [Ejercicio Integrador](05_ejercicio_integrador): Aplicamos las tecnicas de separacion de colores, muestreo, cuantizacion y segmentación simple a una imagen.
 * 06 *Extra* [Uso de skimage y pil-pillow](06_uso_skimage_y_pil-pillow): Funcionamiento básico y comparacion de librerias.
 * 07 [Landmarks y Operaciones Morfológicas](07_lankmarks): Conceptos clave del procesamiento digital de imágenes, incluyendo operaciones morfológicas y la detección y uso de landmarks faciales.
-* 08 [Clasificación y Redes Neuronales](08_clasificacion_rn): Exploración de conceptos fundamentales en el aprendizaje automático, específicamente la clasificación y la implementación de redes neuronales básicas.
-* 09 [Redes Neuronales Convolucionales (CNNs)](09_cnns): Estudio y aplicación de las Redes Neuronales Convolucionales (CNNs) en el procesamiento de imágenes, así como una introducción a la comprensión espacial con Gemini 2.0.
-* 10 [Modelos Preentrenados y Transferencia de Aprendizaje](10_transfer_learning): Aplicación de la Transferencia de Aprendizaje con modelos preentrenados como VGG16, ResNet18 y MobileNetV2 para clasificación de imágenes.
-* 11 [Modelos de Difusión y Aplicaciones con IA Generativa](11_diffusion_models): Introducción a los Modelos de Difusión, con un enfoque en Stable Diffusion, y ejercicios prácticos de aplicaciones con IA generativa.
-* 12 [Interfaces Interactivas con Gradio y Aplicaciones de IA Generativa](12_gradio_apps): Creación de interfaces de usuario interactivas con Gradio, aplicadas al procesamiento digital de imágenes y a modelos de IA generativa (descripción de imágenes, Stable Diffusion XL).
+* 08 [Clasificación y Redes Neuronales](08_redes_neuronales): Exploración de conceptos fundamentales en el aprendizaje automático, específicamente la clasificación y la implementación de redes neuronales básicas.
+* 09 [Redes Neuronales Convolucionales (CNNs)](09_redes_convolucionales): Estudio y aplicación de las Redes Neuronales Convolucionales (CNNs) en el procesamiento de imágenes, así como una introducción a la comprensión espacial con Gemini 2.0.
+* 10 [Modelos Preentrenados y Transferencia de Aprendizaje](10_trasnferencia_de_aprendizaje): Aplicación de la Transferencia de Aprendizaje con modelos preentrenados como VGG16, ResNet18 y MobileNetV2 para clasificación de imágenes.
+* 11 [Modelos de Difusión y Aplicaciones con IA Generativa](11_stable_difussion): Introducción a los Modelos de Difusión, con un enfoque en Stable Diffusion, y ejercicios prácticos de aplicaciones con IA generativa.
+* 12 [Interfaces Interactivas con Gradio y Aplicaciones de IA Generativa](12_interfaces_con_gradio): Creación de interfaces de usuario interactivas con Gradio, aplicadas al procesamiento digital de imágenes y a modelos de IA generativa (descripción de imágenes, Stable Diffusion XL).
 * 13 [Trabajo Práctico Integrador](13_trabajo_practico_integrador): Repositorio central del Trabajo Práctico Integrador, conteniendo subproyectos de detección y reconocimiento de texto y objetos con diversas arquitecturas (TensorFlow/Keras, YOLO, TensorFlow OD API).
 
 
