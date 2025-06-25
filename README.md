@@ -20,6 +20,7 @@ Aquí puedes encontrar una lista de las carpetas con los notebooks incluidos en 
 * 11 [Modelos de Difusión y Aplicaciones con IA Generativa](11_stable_difussion): Introducción a los Modelos de Difusión, con un enfoque en Stable Diffusion, y ejercicios prácticos de aplicaciones con IA generativa.
 * 12 [Interfaces Interactivas con Gradio y Aplicaciones de IA Generativa](12_interfaces_con_gradio): Creación de interfaces de usuario interactivas con Gradio, aplicadas al procesamiento digital de imágenes y a modelos de IA generativa (descripción de imágenes, Stable Diffusion XL).
 * 13 [Trabajo Práctico Integrador](13_trabajo_practico_integrador): Repositorio central del Trabajo Práctico Integrador, conteniendo subproyectos de detección y reconocimiento de texto y objetos con diversas arquitecturas (TensorFlow/Keras, YOLO, TensorFlow OD API).
+* 14 [Herramientas y utilidades](14_herramientas_y_utilidades): Repositorio con notebooks para generar datos sinteticos para entrenamiento de modelos.
 
 
 ## Cómo utilizar los Notebooks de Colab
