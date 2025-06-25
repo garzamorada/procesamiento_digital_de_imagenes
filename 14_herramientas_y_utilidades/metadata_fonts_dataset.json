@@ -1,0 +1,54 @@
+{
+    "nombre_dataset": "fonts_dataset.csv",
+    "descripcion": "Listado de fuentes en formato .ttf descargadas de Google Fonts, incluyendo información sobre su peso, categoría y la ruta de almacenamiento.",
+    "fuente_datos": {
+        "tipo": "Web Scraping",
+        "origen": "Google Fonts (fonts.google.com)",
+        "fecha_extraccion": "2025-06-11",
+        "metodo_extraccion": "Script en python ejecutado desde Google Colab"
+    },
+    "fecha_creacion": "2025-6-11 20:5:0",
+    "ultima_modificacion": "2025-6-11 20:5:0",
+    "version": "1.0",
+    "licencia_uso": "Solo para fines educativos, investigación y desarrollo interno. NO para uso productivo o comercial. No usar para inferir patrones reales de empleo.",
+    "columnas": [
+        {
+            "nombre": "font_name",
+            "tipo": "string",
+            "descripcion": "Nombre de la fuente True Type.",
+            "sensibilidad": "Baja (información pública)",
+            "ejemplo_valor": "df_fonts_dataset['font_name'].iloc[0]"
+        },
+        {
+            "nombre": "style_weight",
+            "tipo": "string",
+            "descripcion": "Indica el peso (ej. 500, bold) o estilo (ej. regular, italic) de la fuente.",
+            "sensibilidad": "Baja (información pública)",
+            "ejemplo_valor": "df_fonts_dataset['style_weight'].iloc[0]"
+        },
+        {
+            "nombre": "file_path",
+            "tipo": "string",
+            "descripcion": "Ruta local de acceso a la fuente.",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "df_fonts_dataset['file_path'].iloc[0]"
+        },
+        {
+            "nombre": "category",
+            "tipo": "string",
+            "descripcion": "Indica la clasificación tipográfica de la fuente (ej. Sans Serif, Serif, Display, Handwriting, Monospace). Esta clasificación proviene de Google Fonts.",
+            "sensibilidad": "Baja (información pública)",
+            "ejemplo_valor": "df_fonts_dataset['category'].iloc[0]"
+        }
+    ],
+    "sesgos_conocidos_dataset": [
+        {
+            "tipo_sesgo": "Sesgo de Selección / Sesgo de Representatividad",
+            "campo_afectado": "Conjunto de fuentes incluidas",
+            "descripcion": "Este dataset contiene *únicamente* fuentes de Google Fonts con caracteres latinos. Se han excluido intencionalmente fuentes con otros sistemas de escritura (cirílico, árabe, asiático, etc.). Además, la selección se limitó a aproximadamente 900 fuentes de las miles disponibles en Google Fonts.",
+            "impacto_potencial": "Un análisis o modelo basado en este dataset solo representará las características y estilos de fuentes latinas dentro de la selección limitada. No será representativo del universo completo de fuentes de Google Fonts ni de otros sistemas de escritura, lo que podría llevar a conclusiones o aplicaciones sesgadas si se generalizan."
+        }
+    ],
+    "limitaciones_uso": "Este dataset *no* es representativo de la totalidad de fuentes disponibles en Google Fonts ni de la diversidad de sistemas de escritura tipográficos a nivel global. Su propósito es específico (ej. demostración de descarga y metadatos de un subconjunto). No debe ser usado para inferir patrones generales sobre tipografía o para aplicaciones donde la representatividad de diferentes sistemas de escritura sea crítica sin una validación exhaustiva.",
+    "acciones_mitigacion_sugeridas": "Para aplicaciones que requieran diversidad tipográfica global, expandir el dataset incluyendo fuentes de diferentes sistemas de escritura y una muestra más amplia del catálogo de Google Fonts."
+}

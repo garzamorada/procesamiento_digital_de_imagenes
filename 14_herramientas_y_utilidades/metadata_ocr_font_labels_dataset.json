@@ -1,0 +1,67 @@
+{
+    "nombre_dataset": "ocr_font_labels_dataset.csv",
+    "descripcion": "Dataset con datos generados para entrenamiento de modelos OCR (basado en Tesseract), conteniendo el detalle de los caracteres individuales (letras, números, símbolos) generadas sintéticamente con diferentes fuentes, fondos y colores.",
+    "fuente_datos": {
+        "tipo": "Sintético / Generado",
+        "origen": "Generado mediante script en Python",
+        "fecha_extraccion": "2025-06-17",
+        "metodo_extraccion": "Script de generación de imágenes a partir de caracteres, fuentes y configuraciones (fondo, color)"
+    },
+    "fecha_creacion": "2025-6-17 20:0:0",
+    "ultima_modificacion": "2025-6-17 20:0:0",
+    "version": "1.0",
+    "licencia_uso": "Solo para fines educativos, investigación y desarrollo interno. NO para uso productivo o comercial. No usar para inferir patrones reales de empleo.",
+    "columnas": [
+        {
+            "nombre": "index",
+            "tipo": "integer",
+            "descripcion": "Índice único para cada registro.",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "df_ocr_font_labels_dataset['index'].iloc[0]"
+        },
+        {
+            "nombre": "character",
+            "tipo": "string",
+            "descripcion": "Caracter individual representado en la imagen (letra mayúscula, minúscula, número o símbolo).",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "df_ocr_font_labels_dataset['character'].iloc[0]"
+        },
+        {
+            "nombre": "font_type",
+            "tipo": "string",
+            "descripcion": "Nombre de la fuente True Type utilizada para generar la imagen del caracter.",
+            "sensibilidad": "Baja (información pública)",
+            "ejemplo_valor": "df_ocr_font_labels_dataset['font_type'].iloc[0]"
+        },
+        {
+            "nombre": "background_type",
+            "tipo": "string",
+            "descripcion": "Tipo de fondo de la imagen del caracter. Valores posibles: 'negro', 'blanco', 'ruido', 'gris'.",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "df_ocr_font_labels_dataset['background_type'].iloc[0]"
+        },
+        {
+            "nombre": "character_color",
+            "tipo": "string",
+            "descripcion": "Color del caracter en la imagen. Valores posibles: 'blanco', 'negro'.",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "df_ocr_font_labels_dataset['character_color'].iloc[0]"
+        }
+    ],
+    "sesgos_conocidos_dataset": [
+        {
+            "tipo_sesgo": "Sesgo de Generación / Sesgo Sintético",
+            "campo_afectado": "Representación de caracteres y variabilidad de imágenes",
+            "descripcion": "Este dataset es completamente sintético. Las imágenes de caracteres son generadas programáticamente, lo que puede no capturar la variabilidad del mundo real (ej. artefactos de escaneo, diferentes resoluciones, iluminación variable, distorsiones). La selección de fuentes, caracteres, fondos y colores también puede introducir sesgos basados en las opciones de generación.",
+            "impacto_potencial": "Un modelo OCR entrenado exclusivamente con este dataset puede tener un rendimiento deficiente al procesar imágenes de texto del mundo real que presenten características diferentes a las presentes en el dataset sintético. El sesgo en la selección de fuentes/caracteres/fondos/colores limitará la capacidad del modelo para generalizar a un conjunto más amplio de entradas."
+        },
+        {
+            "tipo_sesgo": "Sesgo de Selección / Sesgo de Representatividad",
+            "campo_afectado": "Conjunto de caracteres, fuentes, fondos y colores incluidos",
+            "descripcion": "El dataset solo incluye caracteres individuales, un subconjunto limitado de fuentes (probablemente latinas, basándose en el dataset de fuentes original), y configuraciones específicas de fondo y color definidas durante la generación.",
+            "impacto_potencial": "El modelo entrenado estará sesgado hacia el reconocimiento de los caracteres, fuentes, fondos y colores presentes en el dataset. Tendrá dificultades o fallará al reconocer texto con caracteres no incluidos, fuentes diferentes, fondos o colores distintos, o texto continuo (no caracteres individuales)."
+        }
+    ],
+    "limitaciones_uso": "Este dataset *no* es representativo de la variabilidad encontrada en imágenes de texto del mundo real. Está diseñado específicamente para entrenar modelos OCR en el reconocimiento de caracteres individuales bajo condiciones controladas y predefinidas. No debe ser utilizado para aplicaciones de OCR en producción sin una validación rigurosa con datos reales y, si es necesario, un re-entrenamiento o ajuste fino con datasets más representativos.",
+    "acciones_mitigacion_sugeridas": "Complementar el entrenamiento o validación del modelo con datasets de imágenes de texto del mundo real (ej. documentos escaneados, fotos de texto). Expandir el dataset sintético para incluir una mayor diversidad de fuentes (incluyendo no latinas si es relevante), caracteres, tamaños, ángulos, distorsiones, ruidos y condiciones de iluminación simuladas."
+}

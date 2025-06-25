@@ -1,0 +1,53 @@
+{
+    "nombre_dataset": "ocr_font_labels_dataset.csv",
+    "descripcion": "Dataset que contiene las imagenes para entrenamiento de modelos OCR (basado en Tesseract), conteniendo el caracter individuales (letras, números, símbolos) generadas sintéticamente con diferentes fuentes y sus respectivos bounding box",
+    "fuente_datos": {
+        "tipo": "Sintético / Generado",
+        "origen": "Generado mediante script en Python",
+        "fecha_extraccion": "2025-06-17",
+        "metodo_extraccion": "Script de generación de imágenes a partir de caracteres, fuentes y configuraciones (fondo, color)"
+    },
+    "fecha_creacion": "2025-6-17 20:30:0",
+    "ultima_modificacion": "2025-6-17 20:30:0",
+    "version": "1.0",
+    "licencia_uso": "Solo para fines educativos, investigación y desarrollo interno. NO para uso productivo o comercial. No usar para inferir patrones reales de empleo.",
+    "sesgos_conocidos_dataset": [
+        {
+            "tipo_sesgo": "Sesgo de Generación / Sesgo Sintético",
+            "campo_afectado": "Representación de caracteres y variabilidad de imágenes",
+            "descripcion": "Este dataset es completamente sintético. Las imágenes de caracteres son generadas programáticamente, lo que puede no capturar la variabilidad del mundo real (ej. artefactos de escaneo, diferentes resoluciones, iluminación variable, distorsiones). La selección de fuentes, caracteres, fondos y colores también puede introducir sesgos basados en las opciones de generación.",
+            "impacto_potencial": "Un modelo OCR entrenado exclusivamente con este dataset de imágenes puede tener un rendimiento deficiente al procesar imágenes de texto del mundo real que presenten características diferentes a las presentes en el dataset sintético. El sesgo en la selección de fuentes/caracteres/fondos/colores limitará la capacidad del modelo para generalizar a un conjunto más amplio de entradas."
+        },
+        {
+            "tipo_sesgo": "Sesgo de Selección / Sesgo de Representatividad",
+            "campo_afectado": "Conjunto de caracteres, fuentes, fondos y colores incluidos",
+            "descripcion": "El dataset de imágenes solo incluye caracteres individuales, un subconjunto limitado de fuentes (probablemente latinas), y configuraciones específicas de fondo y color definidas durante la generación.",
+            "impacto_potencial": "El modelo entrenado estará sesgado hacia el reconocimiento de los caracteres, fuentes, fondos o colores presentes en el dataset de imágenes. Tendrá dificultades o fallará al reconocer texto con caracteres no incluidos, fuentes diferentes, fondos o colores distintos, o texto continuo (no caracteres individuales)."
+        }
+    ],
+    "limitaciones_uso": "Este dataset de imágenes *no* es representativo de la variabilidad encontrada en imágenes de texto del mundo real. Está diseñado específicamente para entrenar modelos OCR en el reconocimiento de caracteres individuales bajo condiciones controladas y predefinidas. No debe ser utilizado para aplicaciones de OCR en producción sin una validación rigurosa con datos reales y, si es necesario, un re-entrenamiento o ajuste fino con datasets más representativos.",
+    "acciones_mitigacion_sugeridas": "Complementar el entrenamiento o validación del modelo con datasets de imágenes de texto del mundo real (ej. documentos escaneados, fotos de texto). Expandir el dataset sintético para incluir una mayor diversidad de fuentes (incluyendo no latinas si es relevante), caracteres, tamaños, ángulos, distorsiones, ruidos y condiciones de iluminación simuladas.",
+    "columnas": [
+        {
+            "nombre": "index",
+            "tipo": "integer",
+            "descripcion": "Índice único para cada registro. Se relaciona con los datos indexados en el dataset de etiquetas (ocr_font_labels_dataset.csv).",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "0"
+        },
+        {
+            "nombre": "image",
+            "tipo": "numpy.ndarray",
+            "descripcion": "Array de numpy que contiene la imagen generada del caracter individual.",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "Tipo: <class 'numpy.ndarray'>, Forma: (32, 32)"
+        },
+        {
+            "nombre": "bbox",
+            "tipo": "tuple",
+            "descripcion": "Coordenadas del bounding box (caja delimitadora) con la ubicación del caracter dentro de la imagen. Típicamente (x_min, y_min, x_max, y_max).",
+            "sensibilidad": "Baja",
+            "ejemplo_valor": "(7, 8, 25, 24)"
+        }
+    ]
+}
